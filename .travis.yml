@@ -6,18 +6,21 @@ dist: trusty
 sudo: required
 
 install:
-  - sudo add-apt-repository ppa:texlive-backports/ppa -y
-  - sudo apt-get update -y
-  - sudo apt-get install texlive-latex-extra -y
-  - sudo apt-get install texlive-luatex -y
-  - sudo apt-get install cm-super -y
-  - sudo apt-get install texlive-bibtex-extra -y
-  - sudo apt-get install latexmk -y
-  - sudo apt-get install tex4ht -y
-  - sudo apt-get install texlive-fonts-recommended  -y
+  - sudo apt-get update
+  - sudo apt-get install texlive-latex-extra -qq
+  - sudo apt-get install texlive-luatex -qq
+  - sudo apt-get install cm-super -qq
+  - sudo apt-get install texlive-bibtex-extra -qq
+  - sudo apt-get install latexmk -qq
+  - sudo apt-get install tex4ht -qq
+  - sudo apt-get install texlive-fonts-recommended -qq
+  - sudo apt-get install texlive-lang-italian -qq
   
 script:
-- latexmk -jobname=TecWeb2Project -pdflatex='pdflatex -interaction=nonstopmode' -pdf
+  - latexmk -jobname=TecWeb2Project -pdflatex='pdflatex -interaction=nonstopmode' -pdf
+
+after_failure:
+  - cat main.log
 
 before_deploy:
 - git fetch --tags
