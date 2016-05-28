@@ -1,4 +1,4 @@
-# 'Tecnologie Web 2' relation design
+# 'Tecnologie Web 2' report design
 
 <h2>Things to do:</h2>
 - Images:
@@ -10,6 +10,15 @@
   - [ ] Site name inspection
   - [ ] Webpages analysis (see "Question to solve")
     - Home
+    - A news page
+    - A team page
+    - A driver page
+    - 'Diretta live F1, Orari TV F1' are only categories of news
+    - 'Formula 1 live'
+    - F1 calendar
+    - World Champion rank
+    - Photos and Video
+    - 'Link e siti amici' could be interesting to explain
   - [ ] Overall design
   - [ ] Text distribution and readability
   - [ ] Talk about 6 informative axes
@@ -18,6 +27,4 @@
 
 <h2>Question to solve</2>
 - Which pages I want to analyze?
-
-
-
+- How many pages I want to write for my report?
