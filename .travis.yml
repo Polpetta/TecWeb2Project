@@ -17,7 +17,7 @@ install:
   - sudo apt-get install texlive-lang-italian -qq
   
 script:
-  - latexmk -jobname=TecWeb2Project -pdflatex='pdflatex -interaction=nonstopmode' -pdf
+  - make -B
 
 after_failure:
   - cat main.log
