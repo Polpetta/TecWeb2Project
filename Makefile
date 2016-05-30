@@ -4,17 +4,18 @@
 OUTPUT_NAME= TecWeb2Project
 LIST_NAME= listOfSections.tex
 PATH_OF_CONTENTS= res/sections
+COMPILER_OPTIONS= pdflatex -interaction=nonstopmode
 
 all: compile zip
 
 compile:
 	set -e; \
 	if [[ -a $(LIST_NAME) ]]; then rm res/$(LIST_NAME); fi; \
-	for i in $(sort $(wildcard res/sections/*.tex)); do \
+	for i in $(sort $(wildcard $(PATH_OF_CONTENTS)/*.tex)); do \
 		echo "Adding $$i into $(LIST_NAME)"; \
 		echo "\input{$$i}" >> res/$(LIST_NAME); \
 	done; \
-	latexmk -jobname=$(OUTPUT_NAME) -pdflatex='pdflatex -interaction=nonstopmode' -pdf main.tex;
+	latexmk -jobname=$(OUTPUT_NAME) -pdflatex='$(COMPILER_OPTIONS)' -pdf main.tex;
 
 clean:
 	git clean -Xfd
