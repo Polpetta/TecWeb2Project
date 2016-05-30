@@ -16,6 +16,10 @@
   - [ ] Ads integration
   - [ ] Speak about possible overall bloated design
 
+-Travis CI
+  - [x] Continuous integration
+  - [ ] Publish automatically a release
+
 <h2>Question to solve</2>
 - Which pages I want to analyze?
 
