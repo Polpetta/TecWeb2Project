@@ -27,7 +27,8 @@
 
 -Travis CI
   - [x] Continuous integration
-  - [ ] Publish automatically a release
+  - [x] Publish automatically a release
+  - [x] Issue template and Pull request template
 
 <h2>Question to solve</2>
 - Which pages I want to analyze?
