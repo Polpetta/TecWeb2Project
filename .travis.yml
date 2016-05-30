@@ -3,18 +3,19 @@ language:
   
 dist: trusty
 
-sudo: required
+sudo: false
 
-install:
-  - sudo apt-get update
-  - sudo apt-get install texlive-latex-extra -qq
-  - sudo apt-get install texlive-luatex -qq
-  - sudo apt-get install cm-super -qq
-  - sudo apt-get install texlive-bibtex-extra -qq
-  - sudo apt-get install latexmk -qq
-  - sudo apt-get install tex4ht -qq
-  - sudo apt-get install texlive-fonts-recommended -qq
-  - sudo apt-get install texlive-lang-italian -qq
+addons:
+  apt:
+    packages:
+    - texlive-latex-extra
+    - texlive-luatex
+    - cm-super
+    - texlive-bibtex-extra
+    - latexmk
+    - tex4ht
+    - texlive-fonts-recommended
+    - texlive-lang-italian
   
 script:
   - make -B
