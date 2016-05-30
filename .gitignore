@@ -134,3 +134,6 @@ sympy-plots-for-*.tex/
 *.pdf
 
 res/listOfSection.tex
+
+TecWeb2Project.zip
+TecWeb2Project/*
