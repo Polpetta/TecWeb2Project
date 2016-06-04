@@ -2,7 +2,7 @@
 
 <h2>Things to do:</h2>
 - Images:
-  - [ ] Install [firefox plugin for take website photos](http://nimbus.everhelper.me/screenshot.php) (aka full webpage screenshot)
+  - [x] Install [firefox plugin for take website photos](http://nimbus.everhelper.me/screenshot.php) (aka full webpage screenshot)
   - [ ] Take some photos of the website (one for each page of the website that I need to analyze)
 
 - Relation:
