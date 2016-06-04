@@ -10,7 +10,8 @@ all: compile zip
 
 compile:
 	set -e; \
-	if [[ -a $(LIST_NAME) ]]; then rm res/$(LIST_NAME); fi; \
+	if [[ -a res/$(LIST_NAME) ]]; then echo "Removing res/$(LIST_NAME)"; \
+		rm res/$(LIST_NAME); fi; \
 	for i in $(sort $(wildcard $(PATH_OF_CONTENTS)/*.tex)); do \
 		echo "Adding $$i into $(LIST_NAME)"; \
 		echo "\input{$$i}" >> res/$(LIST_NAME); \
