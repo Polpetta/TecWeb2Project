@@ -6,15 +6,15 @@
   - [ ] Take some photos of the website (one for each page of the website that I need to analyze)
 
 - Relation:
-  - [ ] Introduction
+  - [x] Introduction
   - [ ] General aspects
     - [x] Site name inspection
     - [ ] Overall design
-      - [ ] Menu
+      - [x] Menu
       - [ ] Footer
       - [ ] Vertical columns
-      - [ ] Header
-      - [ ] Logo
+      - [x] Header
+      - [x] Logo
     - [ ] Text distribution and readability
     - [ ] Talk about 6 informative axes
     - [ ] Ads integration
