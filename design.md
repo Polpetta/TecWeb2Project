@@ -8,7 +8,7 @@
 - Relation:
   - [ ] Introduction
   - [ ] General aspects
-    - [ ] Site name inspection
+    - [x] Site name inspection
     - [ ] Overall design
       - [ ] Menu
       - [ ] Footer
