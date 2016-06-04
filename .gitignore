@@ -133,7 +133,7 @@ sympy-plots-for-*.tex/
 #Other
 *.pdf
 
-res/listOfSection.tex
+res/listOfSections.tex
 
 TecWeb2Project.zip
 TecWeb2Project/*
