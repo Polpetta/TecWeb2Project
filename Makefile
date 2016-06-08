@@ -6,11 +6,13 @@ LIST_NAME= listOfSections.tex
 PATH_OF_CONTENTS= res/sections
 COMPILER_OPTIONS= pdflatex -interaction=nonstopmode
 
+SHELL := /bin/bash #Need bash not shell
+
 all: compile zip
 
 compile:
 	set -e; \
-	if [[ -a res/$(LIST_NAME) ]]; then echo "Removing res/$(LIST_NAME)"; \
+	if [[ -a "res/$(LIST_NAME)" ]]; then echo "Removing res/$(LIST_NAME)"; \
 		rm res/$(LIST_NAME); fi; \
 	for i in $(sort $(wildcard $(PATH_OF_CONTENTS)/*.tex)); do \
 		echo "Adding $$i into $(LIST_NAME)"; \
@@ -20,7 +22,7 @@ compile:
 
 clean:
 	git clean -Xfd
-	if [[ -a $(OUTPUT_NAME) ]]; then rm -rv $(OUTPUT_NAME)/; fi;
+	if [[ -a "$(OUTPUT_NAME)" ]]; then rm -rv $(OUTPUT_NAME)/; fi;
 
 zip: compile
 	set -e; \
