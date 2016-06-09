@@ -9,10 +9,10 @@
   - [x] Introduction
   - [ ] General aspects
     - [x] Site name inspection
-    - [ ] Overall design
+    - [x] Overall design
       - [x] Menu
-      - [ ] Footer
-      - [ ] Vertical columns
+      - [x] Footer
+      - [x] Vertical columns
       - [x] Header
       - [x] Logo
     - [ ] Text distribution and readability
