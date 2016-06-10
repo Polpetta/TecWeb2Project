@@ -15,7 +15,7 @@
       - [x] Vertical columns
       - [x] Header
       - [x] Logo
-    - [ ] Text distribution and readability
+    - [x] Text distribution and readability
     - [ ] Talk about 6 informative axes
     - [ ] Ads integration
     - [ ] Speak about possible bloated design
