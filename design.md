@@ -7,7 +7,7 @@
 
 - Relation:
   - [x] Introduction
-  - [ ] General aspects
+  - [x] General aspects
     - [x] Site name inspection
     - [x] Overall design
       - [x] Menu
