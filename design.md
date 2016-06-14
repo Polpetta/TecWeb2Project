@@ -17,8 +17,8 @@
       - [x] Logo
     - [x] Text distribution and readability
     - [ ] Talk about 6 informative axes
-    - [ ] Ads integration
-    - [ ] Speak about possible bloated design
+    - [x] Ads integration
+    - [x] Speak about possible bloated design
   - [ ] Webpages analysis (see "Question to solve")
     - [ ] Home -> To analize
       - [ ] Desktop
