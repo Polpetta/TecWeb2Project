@@ -20,7 +20,7 @@
     - [x] Speak about possible bloated design
   - [ ] Webpages analysis
     - [x] Home -> To analize
-      - [ ] Talk about 6 informative axes
+      - [x] Talk about 6 informative axes
       - [x] Desktop
     - [ ] A generic news page -> To analize
       - [ ] Desktop
