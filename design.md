@@ -19,34 +19,20 @@
     - [x] Ads integration
     - [x] Speak about possible bloated design
   - [ ] Webpages analysis
-    - [ ] Home -> To analize
+    - [x] Home -> To analize
       - [ ] Talk about 6 informative axes
-      - [ ] Desktop
-      - [ ] Mobile
+      - [x] Desktop
     - [ ] A generic news page -> To analize
-      - [ ] Talk about 6 informative axes
       - [ ] Desktop
-      - [ ] Mobile
     - [ ] A team page -> To analize
-      - [ ] Talk about 6 informative axes
       - [ ] Desktop
-      - [ ] Mobile
     - A driver page -> Skip
     - 'Diretta live F1, Orari TV F1' are only categories of news -> Skip
-    - [ ] 'Formula 1 live' -> To analize
-      - [ ] Talk about 6 informative axes
-      - [ ] Desktop
-      - [ ] Mobile
-    - [ ] F1 calendar -> To analize
-      - [ ] Talk about 6 informative axes
-      - [ ] Desktop
-      - [ ] Mobile
+    - 'Formula 1 live' -> Skip
+    - F1 calendar -> Skip
     - World Champion rank ('Classifiche F1') -> Skip
     - Photos and Video -> Skip
-    - [ ] 'Link e siti amici' could be interesting to explain -> To analize
-      - [ ] Talk about 6 informative axes
-      - [ ] Desktop
-      - [ ] Mobile
+    - 'Link e siti amici' could be interesting to explain -> Skip
     
 - Travis CI
   - [x] Continuous integration
