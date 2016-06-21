@@ -22,8 +22,8 @@
     - [x] Home -> To analize
       - [x] Talk about 6 informative axes
       - [x] Desktop
-    - [ ] A generic news page -> To analize
-      - [ ] Desktop
+    - [x] A generic news page -> To analize
+      - [x] Desktop
     - [ ] A team page -> To analize
       - [ ] Desktop
     - A driver page -> Skip
