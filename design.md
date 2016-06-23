@@ -24,16 +24,18 @@
       - [x] Desktop
     - [x] A generic news page -> To analize
       - [x] Desktop
-    - [ ] A team page -> To analize
-      - [ ] Desktop
+    - [x] A team page -> To analize
+      - [x] Desktop
     - A driver page -> Skip
     - 'Diretta live F1, Orari TV F1' are only categories of news -> Skip
-    - 'Formula 1 live' -> Skip
+    - [ ] 'Formula 1 live' -> To analize
+      - [ ] Desktop
     - F1 calendar -> Skip
     - World Champion rank ('Classifiche F1') -> Skip
     - Photos and Video -> Skip
     - 'Link e siti amici' could be interesting to explain -> Skip
     
+  - [ ] Table of images
 - Travis CI
   - [x] Continuous integration
   - [x] Publish automatically a release
