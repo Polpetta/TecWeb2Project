@@ -28,6 +28,6 @@ zip: compile
 	set -e; \
 	mkdir $(OUTPUT_NAME)/; \
 	mkdir $(OUTPUT_NAME)/Immagini; \
-	cp res/img/* $(OUTPUT_NAME)/Immagini/; \
+	cp -r res/img/* $(OUTPUT_NAME)/Immagini/; \
 	cp $(OUTPUT_NAME).pdf $(OUTPUT_NAME)/Relazione.pdf; \
 	zip -r $(OUTPUT_NAME).zip $(OUTPUT_NAME)/*
