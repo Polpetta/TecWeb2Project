@@ -5,7 +5,7 @@
 Verrà analizzata la pagina relativa alle informazioni sui tempi delle sessioni
 di una gara di Formula1.
 
-\begin{figure}[H] % 'h' not 'H'
+\begin{figure}[H]
   \centering
   \includegraphics[height=18cm, width=10cm]{res/img/Formula1Live_Full}
   \caption{\textit{Screenshot} della sezione ``Formula1 Live''}
@@ -13,14 +13,16 @@ di una gara di Formula1.
 
 Questa pagina presenta diversi difetti a livello di usabilità.
 Innazitutto è presente un'immagine (che potrebbe essere a mio avviso
-migliorabile) all'inizio del contenuto, che aumenta il numero di scroll. Inoltre
+migliorabile) all'inizio, che aumenta il numero di scroll. Inoltre
 questa pagina non risulta utile ai fini del contenuto stesso, occupando solo
 spazio.
 
-Scendendo nella pagina possiamo trovare il contenuto: una tabella suddivisa per
+Scendendo nella pagina possiamo trovare una tabella suddivisa per
 schede. Per ogni scheda è presente la classifica della sessione, che si aggiorna
 in tempo reale. Questa tabella presenta problemi relativi ai caratteri
-accentati, che non vengono visualizzati correttamente.
+accentati, che non vengono visualizzati correttamente e anche problemi relativi
+alla visualizzazione della tabella stessa, che presenta uno spazio bianco
+vuoto senza una apparente motivazione.
 
 Riguardo al contenuto, è possibile vedere come la scheda ``Prove libere''
 sia uguale alle informazioni presenti nella scheda ``Gara''. Questo problema
@@ -28,14 +30,20 @@ causa all'utente disorientamento, in quanto dovrebbe aspettarsi di vedere
 informazioni diverse sui tempi in base alla sessione selezionata.
 
 \begin{figure}[H]
-
-  \centering
-  \includegraphics[scale=0.5]{res/img/dettagli/tableScore}
-  \caption{Scheda ``Gara'', che risulta essere uguale a ``Prove libere''
-    presenti nello \textit{screenshot} di tutta la pagina} 
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[scale=0.25]{res/img/dettagli/tableScoreR}
+        \caption{Tempi presenti nella sezione ``Gara''}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[scale=0.25]{res/img/dettagli/tableScoreFP1}
+        \caption{Tempi presenti nella sezione ``Prove libere''}
+    \end{subfigure}
+    \caption{Confronto dei dati tra le tabelle}
 \end{figure}
 
-La pagina presenta un altro difetto globale: ogni 30 secondi viene eseguito un
+La pagina presenta un difetto globale: ogni 30 secondi viene eseguito un
 \textit{refresh} automatico, senza possibilità di annullarlo. Questo genera
 molta frustazione all'utente, che si vede ogni 30 secondi ricaricarsi la pagina.
 
